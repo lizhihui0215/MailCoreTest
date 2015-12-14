@@ -15,6 +15,7 @@
 		26E91C2F1C1E6876006D587A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E91C2D1C1E6876006D587A /* LaunchScreen.storyboard */; };
 		26E91C3A1C1E6876006D587A /* MailCore2ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E91C391C1E6876006D587A /* MailCore2ExampleTests.m */; };
 		26E91C451C1E6876006D587A /* MailCore2ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E91C441C1E6876006D587A /* MailCore2ExampleUITests.m */; };
+		26E91C541C1E7133006D587A /* xxxx.png in Resources */ = {isa = PBXBuildFile; fileRef = 26E91C531C1E7133006D587A /* xxxx.png */; };
 		C57F9765091DA370757A5CFA /* libPods-MailCore2Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A930E8DD9EAD7A4CDFBFBD6A /* libPods-MailCore2Example.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		26E91C401C1E6876006D587A /* MailCore2ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailCore2ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E91C441C1E6876006D587A /* MailCore2ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailCore2ExampleUITests.m; sourceTree = "<group>"; };
 		26E91C461C1E6876006D587A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26E91C531C1E7133006D587A /* xxxx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xxxx.png; sourceTree = "<group>"; };
 		67774A9807FF5E85813C5219 /* Pods-MailCore2Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailCore2Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MailCore2Example/Pods-MailCore2Example.release.xcconfig"; sourceTree = "<group>"; };
 		A930E8DD9EAD7A4CDFBFBD6A /* libPods-MailCore2Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MailCore2Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -112,6 +114,7 @@
 				26E91C231C1E6876006D587A /* AppDelegate.m */,
 				26E91C251C1E6876006D587A /* ViewController.h */,
 				26E91C261C1E6876006D587A /* ViewController.m */,
+				26E91C531C1E7133006D587A /* xxxx.png */,
 				26E91C281C1E6876006D587A /* Main.storyboard */,
 				26E91C2B1C1E6876006D587A /* Assets.xcassets */,
 				26E91C2D1C1E6876006D587A /* LaunchScreen.storyboard */,
@@ -272,6 +275,7 @@
 			files = (
 				26E91C2F1C1E6876006D587A /* LaunchScreen.storyboard in Resources */,
 				26E91C2C1C1E6876006D587A /* Assets.xcassets in Resources */,
+				26E91C541C1E7133006D587A /* xxxx.png in Resources */,
 				26E91C2A1C1E6876006D587A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
