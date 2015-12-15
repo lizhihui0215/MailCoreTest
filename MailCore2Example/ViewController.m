@@ -28,12 +28,12 @@
 
 - (IBAction)getMailButtonPressed:(UIButton *)sender {
     MCOPOPSession *session = [[MCOPOPSession alloc] init];
-    session.hostname = @"pop3.live.com";
+    session.hostname = @"mail.xdz.gov.cn";
     session.port = 995;
-    session.username = @"lizhihui0215@hotmail.com";
-    session.password = @"dsn4cgwy";
+    session.username = @"zwsw@xdz.gov.cn";
+    session.password = @"zwsw0129";
     session.connectionType = MCOConnectionTypeTLS;
-    session.authType = (MCOAuthTypeSASLPlain | MCOAuthTypeSASLLogin);
+    session.authType = MCOAuthTypeSASLLogin;
     session.connectionLogger = ^(void * connectionID, MCOConnectionLogType type, NSData * data) {
         @synchronized(self) {
             if (type != MCOConnectionLogTypeSentPrivate) {
@@ -79,7 +79,7 @@
     MCOMessageBuilder * builder = [[MCOMessageBuilder alloc] init];
     [[builder header] setFrom:[MCOAddress addressWithDisplayName:@"李智慧测试邮箱发送" mailbox:@"zwsw@xdz.gov.cn"]];
      
-     NSArray * to = [NSArray arrayWithObject:[MCOAddress addressWithDisplayName:@"某人" mailbox:@"lizhihui0215@icloud.com"]];
+     NSArray * to = [NSArray arrayWithObject:[MCOAddress addressWithDisplayName:@"某人" mailbox:@"zwsw@xdz.gov.cn"]];
      [[builder header] setTo:to];
      [[builder header] setSubject:@"A nice picture!"];
      [builder setHTMLBody:@"<div>Here's the message I need to send.</div>"];
